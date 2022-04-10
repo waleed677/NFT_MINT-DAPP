@@ -1,0 +1,46 @@
+:root {
+  --primary: #b891fe !important;
+  --primary-text: #1a1a1a;
+  --secondary: #5FCDE4;
+  --secondary-text: #ffffff;
+  --accent: #505050;
+  --accent-text: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+  background-image: url('./images/bg.png') !important; ;
+  background-repeat: no-repeat;
+  background-size: 100% 112%;
+  background-position: center ;
+  }
+
+  #myVideo{
+    display: none;
+  }
+}
+
+
+
+.flexContainer{
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+  vertical-align:middle;
+  margin:20px auto;
+  width: 80%;
+}
+
+.flexItems{
+  width: 10%;
+}
+.flexItems > a > img{
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .flexItems{
+    width: 15%;
+  }
+}
+
