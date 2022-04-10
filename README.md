@@ -1,13 +1,4 @@
-# Metaverse Secret NFT's Mint Page
 
-![](https://raw.githubusercontent.com/waleed677/Joking-Jungle-Cats-Mint-Page/master/public/config/images/banner.jpeg)
-
-## Website Link
-
-https://mint.metaversessecret.com/
-
-# From Fleek Access
-https://delicate-silence-7993.on.fleek.co/
 
 
 ## Installation
@@ -22,7 +13,7 @@ https://delicate-silence-7993.on.fleek.co/
 
 1. React Js
 2. Redux for state management
-3. For UI used styled components
+3. For UI used React Bootstrap
 4. For Smart Contract Used Solidity Language
 
 
