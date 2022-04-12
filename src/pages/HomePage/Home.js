@@ -4,7 +4,7 @@ import { connect } from "../../redux/blockchain/blockchainActions";
 import { connectWallet } from "../../redux/blockchain/blockchainActions";
 import { fetchData } from "./../../redux/data/dataActions";
 import axios from 'axios';
-import { Container } from "react-bootstrap";
+import { Container, Row, Col, FormLabel } from "react-bootstrap";
 import Navbar from "../../components/Navbar";
 
 const { createAlchemyWeb3, ethers } = require("@alch/alchemy-web3");
@@ -213,7 +213,17 @@ function Home() {
   return (
     <>
         <Container>
-          <Navbar/>
+          <div className="d-flex justify-content-center custom-bg">
+            <Row>
+              <Col>
+                  <FormLabel>Name</FormLabel>
+              </Col>
+              <Col>
+              
+              </Col>
+            </Row>
+          </div>
+         
         </Container>
     </>
   );
